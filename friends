@@ -1,0 +1,601 @@
+
+
+<html style="--tg-viewport-height: 100vh;
+--tg-viewport-stable-height: 100vh;
+--status-bar-height: 0px;
+--top-window-height: 0px;
+--window-left: 0px;
+--window-right: 0px;
+--window-margin: 0px;
+--window-top:calc(100px + 0px);
+--window-bottom: 0px;">
+<head>
+<title>TRONER</title>
+<script src="//code.tidio.co/vxg6smpz31sncw0mmpilkilrykdghp4w.js" async></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXF3Z549DQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KXF3Z549DQ');
+</script>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+window.Telegram.WebApp.expand();
+</script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="icon" type="image/png" href="/favicon.png" />
+
+<style type="text/css">
+
+
+@font-face {
+  font-family: "InterTightLight";
+  src: url("fonts/InterTight-Light.ttf");
+}
+
+#res {background: #000;
+padding-bottom: 75px;
+/*min-height: 100%;*/
+width: 100%;
+}
+
+
+
+
+html, body {font-family: "InterTightLight";background: #000;
+color: #fff;
+}
+
+body {margin: 0px;
+padding: 0px;
+}
+
+.top {margin: 10px 0px;
+}
+.top .block {border: 1px solid #999;
+border-radius: 7px;
+background: #333;
+padding: 10px 20px;
+margin: 0px 20px;
+margin-bottom: 10px;
+}
+
+.top .block .img {float: left;
+}
+.top .block .img img{width: 32px;
+height: 32px;
+}
+.top .block .text {
+float: left;
+color: #fff;
+padding-left: 15px;
+}
+.top .block .text .textname {
+font-size: 14px;
+}
+.top .block .text .textcoin {
+font-size: 15px;
+font-weight: bold;
+}
+.top .block .button {
+float: right;
+}
+.top .block .button a{
+display: block;
+min-width: 55px;
+background: #fff;
+color: #000;
+text-align: center;
+text-decoration: none;
+min-height: 32px;
+line-height: 32px;
+border-radius: 7px;
+font-size: 15px;
+}
+
+.cc {clear: both;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+height: 250px;
+}
+
+.center img:first-child{
+height: 100%;
+animation: 3s linear infinite rotate;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.center img:nth-child(2) {width: 50px;
+position: absolute;
+}
+
+.ghs {color: #fff;
+text-align: center;
+margin-top: 20px;
+font-weight: bold;
+}
+.ghs .b1{font-size: 28px;
+}
+.ghs .b2{
+font-size: 16px;
+}
+
+.do1 {display: block;
+padding-top: 30px;
+}
+.do1 a.btn1 {display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 45%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+float: left;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+.do1::after {clear: both;
+content: "";
+}
+
+.do2 {
+display: block;
+padding: 0px 20px;
+padding-top: 10px;
+}
+.do2 a {
+display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 100%;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+}
+
+
+.dd {padding: 0px 20px;
+margin-top: 20px;
+}
+.hh {padding: 0px 20px;
+margin-top: 20px;
+font-size: 20px;
+font-weight: 600;
+}
+
+table.tb1 {border: 0px;
+padding: 0px;
+margin: 0px;
+width: 100%;
+}
+
+table.tb1 tr td{
+border-bottom: 1px solid #454545;
+padding: 7px 0px;
+}
+
+table.tb1 tr:first-child td{
+border-bottom: 1px solid #fff;
+padding: 7px 0px;
+}
+
+table.tb1 tr:last-child td{
+border-bottom: 0px solid #fff;
+}
+
+.foot {position: fixed;display: block;
+bottom: 0px;
+left: 0px;
+width: 100%;
+margin-top: -65px;
+height: 65px;
+border-top: 1px solid #eee;
+background: #000;
+padding-top: 0px;
+}
+
+.foot a {color: #fff;display: block;
+width: calc(20% - 1px);
+text-decoration: none;
+float: left;
+text-align: center;
+border-left: 1px solid #eeeeee;
+height: 65px;
+}
+
+.foot a:first-child {width: 20%;
+border-left: 0px solid #000;
+}
+
+.foot a img{height: 20px;
+margin-top: 10px;
+}
+.foot a span{padding-top: 5px;
+display: block;
+text-align: center;
+font-size: 13px;
+}
+
+.bn {text-align: center;
+padding: 0px 10px;
+padding-top: 20px;
+}
+
+.bn img{
+width: 100%;
+border-radius: 6px;
+}
+
+
+@media only screen and (min-width: 1360px) {
+#res {
+width: 600px;
+margin: auto;
+}
+.foot {
+width: 600px;
+left: auto;
+margin: auto;
+margin-top: -65px;
+}
+}
+
+
+
+.pagination {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+
+.page-item {
+	margin-right: 5px;
+}
+
+
+.page-link {
+	padding: 8px 10px;
+	display: block;
+	border-radius: 4px;
+	text-decoration: none;
+	background: #000;
+	color: #d2d9e4;
+	transition: background 0.3s;
+}
+
+
+.page-item.active .page-link {
+	background: #171f2a;
+	color: white;
+}
+
+
+.page-link.prev, .page-link.next {
+	background: #000;
+	color: #d2d9e4;
+}
+
+.page-link:not(.disabled):not(.active):hover {
+	background: #000;
+	color: white;
+}
+
+.page-item.active .page-link:hover {
+	background: #171f2a;
+}
+
+
+.page-link.disabled {
+	pointer-events: none;
+	opacity: 0.6;
+}
+
+</style>
+
+
+<script type="text/javascript">
+var ajax = {};
+ajax.get = function(url) {
+var xhr = new XMLHttpRequest();
+xhr.open('GET', url, false);
+try {
+xhr.send();
+if (xhr.status != 200) {
+
+} else {
+return xhr.responseText;
+}
+} catch(err) {
+
+}
+};
+
+ajax.post_click = function(sett) {
+var formData = new FormData(sett.form);
+var xhr = new XMLHttpRequest();
+xhr.open("POST", sett.url);
+document.getElementById(sett.el_err).innerHTML = '';
+xhr.onreadystatechange = function() {
+  if (this.readyState != 4) return;
+  var arr = JSON.parse(this.responseText);
+  if (arr['err']) {
+	  document.getElementById(sett.el_err).innerHTML = arr['err'];
+  }
+  if (arr['go']) {
+	  window.location = arr['go'];
+  }
+  if (arr['change']) {
+	  document.getElementById(arr['change']).innerHTML = arr['change_text'];
+  }
+  if(sett.butt) {
+	  sett.butt();
+  }
+}
+xhr.send(formData);
+
+};
+
+
+
+function close_modal() {
+document.querySelector('.modal_bg').style.display = 'none';
+var arr = document.getElementsByClassName('mdmall');
+for(zi=0;zi<arr.length;zi++) {
+arr[zi].style.display = 'none';
+arr[zi].querySelector('.modal_content').style.display = 'none';
+}
+}
+function open_modal(m_int) {
+document.querySelector('.modal_bg').style.display = 'block';
+document.querySelector('.mdm_block'+m_int).style.display = 'flex';
+document.querySelector('.mdm_content'+m_int).style.display = 'block';
+}
+
+document.addEventListener( 'click', (e) => {
+
+//console.log(e.target);
+
+var p_el = e.target;
+var p_ok = 1;
+for(zz=0;zz<=5;zz++) {
+//console.log(p_el.tagName);
+if (p_el.tagName!='BODY') {
+//console.log(p_el.className);
+if (p_el.className.indexOf('modal_cc')>=0) {
+p_ok = 0;
+}
+p_el = p_el.parentNode;
+}
+}
+if (p_ok==1) {
+close_modal();
+}
+//console.log(e.target);
+
+});
+
+</script>
+
+
+
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+
+function recheckauth() {
+
+var teg = window.Telegram.WebApp;
+
+if (teg['initDataUnsafe']['user']!==undefined) {
+if (teg['initDataUnsafe']['user']['id']!='5699636836') {
+window.location = '/auth?clear=1';
+
+}
+
+}
+
+//setTimeout(function() {//recheckauth();
+//},5000);
+
+}
+
+recheckauth();
+
+</script>
+
+</head>
+<body>
+
+<iframe src="/recheck_auth" name="fr1" id="fr1" style="display: none;"></iframe>
+
+<script type="text/javascript">
+
+
+function recheck_auth() {
+var el = document.getElementById('fr1');
+
+var uri = '/recheck_auth';
+if (el.src.indexOf('?')<0) {uri = '/recheck_auth?t=1';
+}
+
+
+el.src = uri;
+
+setTimeout(function() {recheck_auth();
+},5000);
+}
+
+recheck_auth();
+</script>
+
+<div class="modal_bg"></div>
+
+
+<div id="res">
+
+
+<style type="text/css">
+.fr_b1 {color: #ccc;
+padding: 10px;
+border: 1px solid #888;
+border-radius: 6px;
+}
+.fr_h1 {color: #fff;
+font-size: 18px;
+font-weight: bold;
+}
+
+.fr_b1 input{
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+border-radius: 6px;
+color: #ccc;
+background: #111;
+border: 1px solid #434;
+}
+
+.fr_b2 {
+color: #ccc;
+padding: 10px;
+border: 1px solid #888;
+border-radius: 6px;
+}
+
+</style>
+
+<div class="dd">
+
+<div class="fr_b1">Invite friends an receive 250 SHIB for every friend registration.You can also receive bonuses for completed missions by you friends.</div>
+
+<br/>
+
+<div class="fr_b1">
+<div class="fr_h1">Your Invite Link</div>
+<span style="float: right;"><a href="javascript:cop('ref_url')"><img id="img_cop" style="height: 16px; position: absolute; margin-top: 20px; margin-left: -30px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAADClJREFUeF7tnYtx2zgURYlKdl1J4koSV7J2JbEriV1J3AlWTwYVSqIkfi7AB+FwxpPZHfIBvPcd4UOADF2GI8b4s+u6f7qu+3fwZyXZf3NoFPjsum74Z1HfQgj2/zhECgRRnC5B8aPruu+qmMRZpMD7zgP7+wgh2L8cKxRYBUiM0WD4DyhWOJD3UmtNXgwYWpZlQi8CJMZoXaVfgLFM9A2uspbEul+vG5RddZGzAYkxGhg2xuCoTwED5YnWZLpxkwGh1ZguagVnGiS0JhOMmgRIGmv8nhCPU+pR4JlZr9tm3QQkxmiDcBOT4/4UoMt1w9OrgKSpWxtzcNyvAkByxduLgNCtul8iRu7sOYRg08EcJwqMApIG5H9QqykFgGTE7kuA2ICcJ+JN8bG/2Ueevh+bfgYIg/L2qBjcsT15N0hYz5VEOQKErlXTcPQ3T1drkAangPCUHEZMgQdaka9EOABC6wEZAwVoRU67WDFGBuYwMlSAVqRvQWg9IINnI+M5sO9iZZ65skVxH4Pdb2TjegX6nZnf0srqHDs1bQ/J4/qq1h2hByRH98rAeGGwlz9B0pIgWzOnBqX5blbI1L3igVN+Lo5KSD7aD50SkuaXxRsg6tW6wFEYjr64DJA0381SA8L04EZwDCCxJUKqvTufIYSHjW9p0+INENnDwd2K0Jv7Sza920YKx1Od0QaIaoD+GkJ40lWNSEsVEG9VaHqgrgSE7tXSjM5wXYzRtisoBuzNAxJF/jA4FwmpCCMEpGlfrQVRAdL0L40iqZUxhIA0PdULIMqsdBQLQDRmAIhGR3dRAERjCYBodHQXBUA0lgCIRkd3UQBEYwmAaHR0FwVANJYAiEZHd1EARGMJgGh0dBcFQDSWAIhGR3dRAERjCYBodHQXBUA0lgCIRkd3UYSLUFlqInKXpSYiIRVhVBvhWt/CQAuiyEaHMURL3tkwxWJFh9ktqpJgHNL0QkWzgRZElIwew6zco978fnQA8ZjV4jotHIs037XqbaAFESekx3Az35tFyzEwEUA8ZnSGOqXulr3iyd56MrYV174JYi/64/PQAJIhAysKmWa4hpBYq8FHc0Y8pAWpKLGpankFAKS85pRYkQIAUpFZVLW8AgBSXnNKrEgBAKnILKpaXgEAKa85JVakAIBUZBZVLa8AgJTXnBIrUgBAKjKLqpZXAEDKa06JFSkAIBWZRVXLKwAg5TWnxIoUAJCKzKKq5RUAkPKaU2JFCgBIRWZR1fIKAEh5zSmxIgUApCKzqGp5BQAks+Zpq6vt3lN8cTZzbasJb7sf9zsgc++EBBBhTqSXI3xL+74tMlAI9b0Sqgfmbae9dPswgKw08AQKgFipp+jydwOl67q3tS0MgCx0JL34oH9LyMIoXFZAAXtLi72tZdFLKQBkpkOAMVMwP6c/Lel+AcgMAxe+pXBGCZyaWQFrRex9w9b9mnQAyCSZuk74vY2JJXJaRgWed591eJkSH0BuqJSmaX8NZqam6Mo5/hV4njKIB5ArRoq+seE/VdqtoXW1rMt1cQAPIBeSI7Ucf9rNnWbu/GpLAiAjeUC3qhk4+hu9OCYBkHFAfjPmABJTAEBO8oCp3ObAGN7w2YdoAWQgD+OOpuGwmz/7eBCAHANC16p5RvazWoePCAFISghaD8hICtiU72M/9QsgfwGh9YCRs1ktAOn2y0hsmTrPPACkV+DwlV8A+QLElq3bA6Ocx2EXXM5CGond77vJuf9mP6MFIF+AxEyJNWm9T6ay7z5s5q0H+4eHzQOSqXvFt8YL4plAsQWlyhZl7yGA6LtXryEE25zDUVCB9ENnEy1KSB4AJEbl7BUtR0EoTovKAMkTgOjGH4eZjw1zpPmixRMurwCiA2TyLrXmszizADFGm7JXdLXaBkQ8QD9b6JY5Dwh/QYEYow3YfwoEem+6BRHuGKR7JchGVYj0rjKDZO3R9nMQqZAhPKx1g+s1Cgh/+NreDyIEhNkrTW5LogCIRMb9E3TrpyqaYgAReaIIAyAKFb+WmACISEtPYQBE5AaAiIR0FgZARIYAiEhIZ2EARGQIgIiEdBYGQESGAIhISGdhAERkCICIhHQWBkBEhgCISEhnYQBEZAiAiIR0FgZARIYAiEhIZ2EARGQIgIiEdBYGQESGAIhISGdhAERkCICIhHQWBkBEhgCISEhnYQBEZAiAiIR0FgZARIYAiEhIZ2EARGQIgIiEdBZGDYjqDRD2yvjJH2j3oCmAeHBBXwevgBx9eER/2/qIAKLX1ENENSCqNwtW98pNAPGQzvo6qAFRvUPI7rSqd0MBiD45PUT0DEhVbxcEEA/prK+DGhDViwv6O62mFQEQfXJ6iKgG5HvXdTYOUR1HH0FUBc0RB0ByqLp9TCkgdjvCl/0O1XE/qwUg2ydzjhrkAEQ5UB/es31v+m33ImF7d621LK4OAHFlh6wyOQBRd7Mu3ewUSPpz7KHjR86HjwAiy0lXgeSAZOxmKYQzUKy7NgWuWeUByCy5qjk5FyAlPoW8RmT5mAZA1tjh99osgDhvRXo3pJAAiN8kX1OznIB4b0VMN9lzFgBZk4Z+r80GSCWtiOxpPYD4TfI1NcsNiH38UP296TX3O3atpBUBELUtPuJlBSS1It67WpK9JwDiI6HVtcgOSAWQSAbrAKJOTR/xigCSIFHtFVErByBqRe8oXjFAHA/aAeSOElp9K0UBSZDkWqu1SJsQQlh04clFdLEUKvqLURyQwZjE9o7YLNeWhy18lHyTHEC2tDFf2ZsAkiCxRY3WmmwJCc9B8uXWXUTeDJBevRijQWKwlAZF+j1yWpC74OHsJjYHJLUmBoc9LykFiqxrNQBdtd1YCu59pm25u3IByCDJDJQfu01ROccnWRKQFqRc0pYsyRUgwxtPFeuBsX/XdsH2OxJzbZoCkJJpW64st4CMSRBjHIIyFRjbHJV9my6AlEvakiVVBUhJYeaWBSBzFavjfAAR+QQgIiGdhQEQkSEAIhLSWRgAERkCICIhnYUBEJEhACIS0lkYABEZAiAiIZ2FARCRIQAiEtJZGAARGQIgIiGdhQEQkSEAIhLSWRgAERkCICIhnYUBEJEhACIS0lkYABEZAiAiIZ2FARCRIQAiEtJZGAARGQIgIiGdhQEQkSEAIhLSWRgAERkCICIhnYUBEJEhACIS0lkYABEZAiAiIZ2FARCRIQAiEtJZGAARGQIgIiGdhQEQkSEAIhLSWRgAERkCICIhnYUBEJEhACIS0lkYABEZAiAiIZ2FARCRIQAiEtJZGAARGQIgIiGdhQEQkSEAIhLSWRgAERkCICIhnYUBEJEhACIS0lkYABEZAiAiIZ2FARCRIQAiEtJZGAARGQIgIiGdhQEQkSEAIhLSWRgAERkCICIhnYUBEJEhACIS0lkYABEZAiAiIZ2FARCRIVIhQwiiahFmpQJCXz+bNlUopFn6EEKwr/NybKxAjPG/XRWeBdVoHhD7LPUfgZAW4imEYN9159hYASEg7023IObjTswo8vM1hPAkikWYhQrEGJU/eq8AEqO1ICaq4ngOIbwoAhFjmQLC1sMq8AwgMf7quu7nMjtGr2IsIhRzTijxmNKKfgSQGA0Og0R1vKfxCAN2laIT4mSAo9v1BpiaFPdZh1baLMobM1sTsnvlKVHfC7AafYYQHppvQdJAXTkOGdptrYj9WavysTIPuPxYARs3fhN3j49+4Gw8CSBfM1mqeXOS+H4U2I8lAeQLEPs1+i2czbqfNGnzTt5DCI926wCSEoBWpE0SLtz1YSYSQP4CQisCI6bAofWgBTlJCFoRCDldU0cLcg5Jrhktss+/AmcrIQDkHBB7cGizWqrlJ/7TghoennucSgEgI8lBV6s5YuxZ1ePYQ10AuZALQNIUJAaHPcw9OwDkSh5E7UrfpjKuopu9ugIbQG44GWO0B4jfKzKcqk5X4OYmNwCZICbdrQki1XfKxW7V8FYAZKKxCRKb4WJ2a6JmTk+btR0BQGa4mPYc2N4RIJmhm6NTZ2+LBpAF7gHKAtG2vcRepvGyZG8OgKwwLr14joeKKzTMfKmBYZvWRqdwp5QNIFNUuj3TZbNc/eYdul8CTVeEMChsc5otOly97RlAVjgxdmnqfhksBkoPy+m/4lKbDNfv1uwh+MjxXrL/AeQWrflbVv4rAAAAAElFTkSuQmCC" alt=""/></a></span>
+<input type="text" onclick="cop('ref_url')" readonly name="referal" id="ref_url" value="https://t.me/Troner_app_bot?start=5699636836"/>
+</div>
+
+
+<script type="text/javascript">
+var imm = document.getElementById('img_cop');
+var immdo = imm.src;
+
+function cop(id) {var copyText = document.getElementById(id);
+copyText.select();
+copyText.setSelectionRange(0, 99999);
+navigator.clipboard.writeText(copyText.value);
+
+imm.src = 'img/success.png';
+setTimeout(function() {imm.src = immdo;
+},1000);
+}
+</script>
+
+<br/>
+
+<div class="fr_b2">
+<span style="color: #fff;">You inviter</span>
+<span style="float: right;"><a href="https://t.me/JR89J" style="color: #fff; text-decoration: none;">@JR89J</a></span>
+<div class="cc"></div>
+</div>
+
+<br/>
+
+
+
+<div class="fr_b2">
+<span style="color: #fff;">Total referrals / active</span>
+<span style="float: right;">0 / 0</span>
+<div class="cc"></div>
+</div>
+
+<br/>
+
+
+<table cellpadding="0" cellspacing="0" class="tb1">
+<tr>
+<td>Name</td>
+<td>Missions</td>
+<td>Rewards</td>
+<td>Bonus</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+
+
+<div style="margin: 15px 0px;">
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="foot">
+<a href="/"><img src="/img/icon_1_blue.svg" alt=""/><span>Home</span></a>
+<a href="/wallet"><img src="/img/icon_4_blue.svg" alt=""/><span>Wallet</span></a>
+<a href="/friends"><img src="/img/icon_3_blue.svg" alt=""/><span>Friends</span></a>
+<a href="/missions"><img src="/img/icon_2_blue.svg" alt=""/><span>Missions</span></a>
+<a href="/rating"><img src="/img/icon_Star.svg" alt=""/><span>Rating</span></a>
+</div>
+
+
+</div>
+
+
+</body>
+</html>

